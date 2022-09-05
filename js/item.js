@@ -1,5 +1,3 @@
-import {db} from "./db.js"
-
 export function mostrarItem(curso, container) {
   container.innerHTML = "";
   container.innerHTML = `
@@ -18,12 +16,12 @@ export function mostrarItem(curso, container) {
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
                 <div class="d-flex mb-3">
-                  <a type="button" class="btn btn-success px-1 px-lg-4 mx-1 mx-lg-3 " href="https://api.whatsapp.com/send?phone=50769029979">
+                  <a type="button" class="btn btn-success px-1 px-lg-4 mx-1 mx-lg-3 " href="https://api.whatsapp.com/send?phone=50767456144">
                     <i class="bi bi-whatsapp d-flex align-items-center">
                       <p class="ms-2 my-auto">Contratalo</p>
                     </i>
                   </a>
-                  <a type="button" class="btn btn-primary px- px-lg-4 mx-1 mx-lg-3" href="mailto:walter.alvarez@e-riskcorp.com">
+                  <a type="button" class="btn btn-primary px- px-lg-4 mx-1 mx-lg-3" href="mailto:cursossophiegroup@gmail.com">
                     <i class="bi bi-envelope d-flex align-items-center">
                       <p class="ms-2 my-auto">Contratalo</p>
                     </i>

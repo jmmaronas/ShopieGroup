@@ -13,7 +13,7 @@ body {
 
 #nav {
     background-color: rgb(233, 227, 145);
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .main {
@@ -25,7 +25,7 @@ body {
 }
 
 .sophieG{
-    color: gray;    
+    color: rgb(92, 91, 91, 0.9);    
     font-weight: bold;    
 }
 
@@ -38,6 +38,7 @@ body {
 .titulo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 5rem;
+    font-weight: 500;
     color: black;
     font-weight: normal;
 }
@@ -61,21 +62,21 @@ body {
     margin-top: 13px;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 670px) {
     #logoHeader {
         display: none;
     }
 
     header {
-        height: 28rem;
+        height: 15rem;
     }
 
     header::before {
-        height: 28rem;
+        height: 15rem;
     }
 
     .titulo {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     #fondoActionRisk p {
